@@ -1,126 +1,161 @@
 <!DOCTYPE html>
-<html lang="es"><!--idioma-->
-<head><!--cabecera de meta-etiquetas-librerias-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--tamaños de pantallas-->
-    <!--Link de tipografia google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coral+Pixels&family=Kanchenjunga:wght@400;500;600;700&family=Lexend:wght@100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DK+Loopet:wght@100..400&family=Tagesschrift&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Tienda Adidas</title><!--Titulo-->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tienda Adidas con productos nuevos de la temporada 2026. Jerseys, chamarras y tenis exclusivos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Tienda Adidas</title>
 </head>
-    <body>
-        <header>
-            <i><img src="img/icono-memu.png" alt="icono menu"></i>
-            <img src="img/logo3_adidas.jpg" alt="logo adidas">
-            <i><img src="img/icono-carrito.png" alt="icono carrito"></i>
-        </header>
+<body>
 
-        <main>
-            <section class="banner">
-                <h2>Productos Nuevos</h2>
-                <p>Conoce los productos de temporada 2026</p>
-            </section>
+  <!-- HEADER -->
+  <header>
+    <button class="icon-btn"><img src="img/icono-memu.png" alt="Menú"></button>
+    <img src="img/logo3_adidas.jpg" alt="Logo Adidas" class="logo">
+    <button class="icon-btn cart-toggle"><img src="img/icono-carrito.png" alt="Carrito"></button>
+  </header>
 
-            <!--clase para productos-->
-            <section class="products"><!--AGRUPAR CONTENIDO RELACIONADO (PRESENTACION DE PRODUCTOS)-->
-                <article><!--AGRUPAR CONTENIDO INDEPENDIENTE (Como productos DIFERENTES con precios INDEPENDIENTES)-->
-                    <img src="img/jersey.png" alt="jersey">
-                    <h3>Jersey Mexico 2026</h3>
-                    <p>$1,999.99</p>
-                </article>
+  <!-- MAIN -->
+  <main>
+    <!-- Banner -->
+    <section class="banner">
+      <h2>Productos Nuevos</h2>
+      <p>Conoce los productos de temporada 2026</p>
+    </section>
 
-                <article>
-                    <img src="img/chamarra" alt="chamarra">
-                    <h3>Chamarra Adidas Special</h3>
-                    <p>$2,499.99</p>
-                </article>
+    <!-- Productos -->
+    <section class="products">
+      <article>
+        <img src="img/playera-3.jpg" alt="Playera">
+        <h3>Playera Adidas Hombre M Doodle FT-In7975</h3>
+        <p>$3,499.00</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
 
-                <article>
-                    <img src="img/tenis_adidas_1.png" alt="tenis">
-                    <h3>Adidas LG2 2026</h3>
-                    <p>$2,100.00</p>
-                </article>
+      <article>
+        <img src="img/chamarra" alt="Chamarra Adidas Special">
+        <h3>Chamarra Adidas Special</h3>
+        <p>$2,499.99</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
 
-                <article>
-                    <img src="img/jersey.png" alt="jersey">
-                    <h3>Jersey Mexico 2026</h3>
-                    <p>$1,999.99</p>
-                </article>
+      <article>
+        <img src="img/tenis_adidas_1.png" alt="Tenis Adidas LG2 2026">
+        <h3>Adidas LG2 2026</h3>
+        <p>$2,100.00</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
 
-                <article>
-                    <img src="img/chamarra" alt="chamarra">
-                    <h3>Chamarra Adidas Special</h3>
-                    <p>$2,499.99</p>
-                </article>
+      <article>
+        <img src="img/gorra-red.jpg" alt="Gorra">
+        <h3>Gorra Adidas Béisbol - Red</h3>
+        <p>$999.99</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
 
-                <article>
-                    <img src="img/tenis_adidas_1.png" alt="tenis">
-                    <h3>Adidas LG2 2026</h3>
-                    <p>$2,100.00</p>
-                </article>
+      <article>
+        <img src="img/playera-1.jpg" alt="Playera">
+        <h3>Playera Adidas Gran Trifolio Boxy</h3>
+        <p>$1,299.00</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
 
-                <article>
-                    <img src="img/jersey.png" alt="jersey">
-                    <h3>Jersey Mexico 2026</h3>
-                    <p>$1,999.99</p>
-                </article>
+       <article>
+        <img src="img/short-1.avif" alt="short">
+        <h3>Shorts Own the Run 3 Franjas 2 en 1</h3>
+        <p>$1,199.00</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
 
-                <article>
-                    <img src="img/chamarra" alt="chamarra">
-                    <h3>Chamarra Adidas Special</h3>
-                    <p>$2,499.99</p>
-                </article>
+      <article>
+        <img src="img/gorra-pink.jpg" alt="gorra">
+        <h3>Gorra Adidas Sanpin Ball Tonal Para Mujer</h3>
+        <p>$499.00</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
 
-                <article>
-                    <img src="img/tenis_adidas_1.png" alt="tenis">
-                    <h3>Adidas LG2 2026</h3>
-                    <p>$2,100.00</p>
-                </article>
+      <article>
+        <img src="img/tenis_adidas_2.png" alt="Tenis">
+        <h3>Tenis Adidas azul</h3>
+        <p>$3,499.00</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
 
-                <article>
-                    <img src="img/jersey.png" alt="jersey">
-                    <h3>Jersey Mexico 2026</h3>
-                    <p>$1,999.99</p>
-                </article>
+      <article>
+        <img src="img/chamarra-2.avif" alt="chamarra">
+        <h3>Adidas Chamarra Térmica-Essentials 3 Franjas - Negro</h3>
+        <p>$3,499.00</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
 
-                <article>
-                    <img src="img/chamarra" alt="chamarra">
-                    <h3>Chamarra Adidas Special</h3>
-                    <p>$2,499.99</p>
-                </article>
+      <article>
+        <img src="img/tenis_adidas_3.png" alt="Tenis">
+        <h3>Adidas Sneakers Magazine</h3>
+        <p>$5,499.00</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
 
-                <article>
-                    <img src="img/tenis_adidas_1.png" alt="tenis">
-                    <h3></h3>
-                    <p>$2,100.00</p>
-                </article>
-            </section>
+      <article>
+        <img src="img/gorra-black.jpg" alt="gorra">
+        <h3>Gorra Adidas AEROREADY Running Color Negro</h3>
+        <p>$499.00</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
 
-            <section class="cart">
-                <h2>CARRITO</h2>
-                <div><!--Contenedor generico-->
-                    <img src="img/tenis_adidas_1.png" alt="tenis 1"><!--compra-->
-                    <p>Adidas LG2 2026</p>
-                    <p>$2,100.00</p>
-                    <i><img src="img/icono-quitar.png" alt="icono quitar"></i>
-                </div>
-                
-                <div><!--Contenedor generico-->
-                    <img src="img/tenis_adidas_1.png" alt="tenis 1"><!--compra-->
-                    <p>Adidas LG2 2026</p>
-                    <p>$2,100.00</p>
-                    <i><img src="img/icono-quitar.png" alt="icono quitar"></i>
-                </div>  
+      <article>
+        <img src="img/jersey.png" alt="Jersey México 2026">
+        <h3>Jersey México 2026</h3>
+        <p>$1,999.99</p>
+        <button class="add-to-cart">Agregar al carrito</button>
+      </article>
+    </section>
 
-                <div><!--Contenedor generico-->
-                    <img src="img/tenis_adidas_1.png" alt="tenis 1"><!--compra-->
-                    <p>Adidas LG2 2026</p>
-                    <p>$2,100.00</p>
-                    <i><img src="img/icono-quitar.png" alt="icono quitar"></i>
-                </div>  
-            </section>
-        </main>
-    </body>
-</html> 
+    <!-- Carrito -->
+    <section class="cart" id="cart">
+      <h2>Carrito</h2>
+
+      <div class="cart-item">
+        <img src="img/tenis_adidas_1.png" alt="Tenis Adidas LG2 2026">
+        <p>Adidas LG2 2026</p>
+        <p>$2,100.00</p>
+        <button class="remove-item"><img src="img/icono-quitar.png" alt="Quitar"></button>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div>
+        <h4>Sobre Nosotros</h4>
+        <p>Tienda Adidas oficial - productos exclusivos de temporada 2026.</p>
+      </div>
+
+      <div>
+        <h4>Enlaces Rápidos</h4>
+        <ul>
+          <li><a href="https://www.adidas.mx/">Inicio</a></li>
+          <li><a href="https://www.adidas.mx/">Productos</a></li>
+          <li><a href="https://www.adidas.mx/ayuda/servicio-al-cliente">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Síguenos</h4>
+        <div class="social">
+          <a href="https://www.facebook.com/adidasmx/"><img src="img/facebook_725289.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/adidasmx/?igsh=YTN5OGNsNz-N0MW95"><img src="img/instagram-logo_3983858.png" alt="Instagram"></a>
+          <a href="https://x.com/adidasmx"><img src="img/twitter_5968830.png" alt="Twitter"></a>
+        </div>
+      </div>
+    </div>
+
+    <p class="footer-bottom">© 2026 Adidas México. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
